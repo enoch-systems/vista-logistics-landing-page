@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Youtube() {
   return (
     <section className="py-16 px-6 bg-gray-100">
-      <h2 className="text-center text-2xl font-semibold mb-12">
+      <h2 className="text-center text-2xl font-semibold mb-12 text-black">
        Product Unboxing Videos
       </h2>
 

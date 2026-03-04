@@ -23,7 +23,7 @@ export default function Home() {
           height={120}
           className="mb-8 w-42 h-24 md:w-72 md:h-32"
         />
-        <h1 className="text-4xl sm:text-5xl font-bold leading-tight max-w-2xl">
+        <h1 className="text-4xl sm:text-5xl font-bold leading-tight max-w-2xl text-black">
           Learn How to Import Profitable Goods from China Using Just Your Phone — No Travel Required
         </h1>
         <p className="mt-4 text-xl text-indigo-900 max-w-lg">
