@@ -21,7 +21,7 @@ export default function Home() {
           alt="Company Logo"
           width={520}
           height={120}
-          className="mb-8 w-42 h-24 md:w-72 md:h-32"
+          className="mb-8 w-77 h-24 md:w-72 md:h-32"
         />
         <h1 className="text-4xl sm:text-5xl font-bold leading-tight max-w-2xl text-black">
           Learn How to Import Profitable Goods from China Using Just Your Phone — No Travel Required
