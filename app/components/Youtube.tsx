@@ -9,7 +9,7 @@ export default function Youtube() {
       </h2>
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="aspect-w-16 aspect-h-16">
+        <div className="w-full h-96 md:h-96">
           <iframe
             className="w-full h-full"
             src="https://www.youtube.com/embed/C6vS5ifMyWg"
@@ -20,7 +20,7 @@ export default function Youtube() {
           ></iframe>
         </div>
 
-        <div className="aspect-w-16 aspect-h-16">
+        <div className="w-full h-96 md:h-96">
           <iframe
             className="w-full h-full"
             src="https://www.youtube.com/embed/Bl_U6iTjzig"
@@ -30,8 +30,6 @@ export default function Youtube() {
             allowFullScreen
           ></iframe>
         </div>
-
-       
       </div>
     </section>
   );
