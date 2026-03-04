@@ -24,7 +24,7 @@ export default function Trip() {
   };
 
   return (
-    <section className=" pb-7 px-6 bg-white dark:bg-gray-900">
+    <section className=" pb-7 px-6 bg-white">
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         <div className="w-full relative">
           <div className="overflow-hidden rounded-lg">
@@ -54,12 +54,12 @@ export default function Trip() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           </button>
-          <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 text-center">
+          <p className="mt-2 text-sm text-gray-600 text-center">
             Learn Direct Importation from Industry Experts
           </p>
         </div>
 
-        <div className="text-gray-800 dark:text-gray-200">
+        <div className="text-gray-800">
           <h3 className="text-2xl font-normal mb-4">
             We discovered how most beginners get overcharged by suppliers and middlemen.
           </h3>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Experience() {
   return (
-    <section className="py-16 px-6 bg-white dark:bg-gray-900">
+    <section className="py-16 px-6 bg-white">
       <div className="max-w-3xl mx-auto text-center">
         <Image
           src="/ceo2.jpg"
@@ -12,10 +12,10 @@ export default function Experience() {
           height={300}
           className="mx-auto rounded-lg mb-6"
         />
-        <p className="text-gray-800 dark:text-gray-200 font-semibold mb-2">
+        <p className="text-gray-800 font-semibold mb-2">
           Ezinne Vivian Chinwendu
         </p>
-        <p className="text-gray-600 dark:text-gray-400 mb-4">
+        <p className="text-gray-600 mb-4">
           Ezinne Vivian Chinwendu is the founder of Vista Express Logistics Academy. With years of experience in importation and logistics, she has helped countless individuals start and grow their mini-importation businesses. Her practical approach and industry insights make her the perfect guide for anyone looking to enter the profitable world of international trade.
         </p>
         <a

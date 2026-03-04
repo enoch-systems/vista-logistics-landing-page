@@ -7,7 +7,7 @@ import Reviews from "./components/Reviews";
 
 export default function Home() {
   return (
-    <div className="bg-white dark:bg-black min-h-screen font-sans">
+    <div className="bg-white min-h-screen font-sans">
       {/* Top Banner */}
       <div className="bg-indigo-950 text-white text-center  px-6 mt-16">
         <h2 className="text-2xl sm:text-3xl font-bold">Turn N10,000 into N300,000/Month with Importation</h2>
