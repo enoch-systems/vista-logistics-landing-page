@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Image from "next/image";
+import ScrollToTop from "./components/ScrollToTop";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <ScrollToTop />
         {children}
         <a
           href="https://wa.me/2349121195283?text=Good%20day.%0A%0AI%27m%20interested%20in%20enrolling%20for%20the%20mini-importation%20business%20training"

@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect } from "react";
 
 import Getting from "./components/Getting";
 import Trip from "./components/Trip";
@@ -11,9 +10,6 @@ import Reviews from "./components/Reviews";
 import FAQ from "./components/FAQ";
 
 export default function Home() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <div className="bg-white min-h-screen font-sans">
       {/* Logo */}
