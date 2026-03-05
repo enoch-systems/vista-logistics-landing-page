@@ -15,7 +15,7 @@ export default function Experience() {
   return (
     <section className="py-1 px-6 bg-white">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-xl font-bold text-amber-600 mb-4">MEET LEAD FACILATOR</h2>
+        <h2 className="text-xl font-bold text-amber-600 mt-10 mb-4">MEET OUR LEAD FACILATOR</h2>
         <Image
           src="/ceo2.jpg"
           alt="Photo taken during my sourcing trip to China"
@@ -28,12 +28,12 @@ export default function Experience() {
         </p>
         {isExpanded ? (
           fullText.map((para, idx) => (
-            <p key={idx} className="text-indigo-900 mb-4 text-left">
+            <p key={idx} className="text-indigo-950 mb-4 text-left">
               {para}
             </p>
           ))
         ) : (
-          <p className="text-indigo-900 mb-4 text-left">
+          <p className="text-indigo-950 mb-4 text-left">
             {shortText}
           </p>
         )}

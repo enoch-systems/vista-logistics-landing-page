@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Youtube() {
   return (
-    <section className="py-4 px-6 bg-gray-100">
-      <h2 className="text-center text-2xl font-semibold mb-12 text-amber-600">
-       TESTIMONIAL
+    <section className="py-2 px-6 bg-white">
+      <h2 className="text-center text-2xl font-semibold mb-6 text-amber-600">
+       REVIEWS
       </h2>
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">

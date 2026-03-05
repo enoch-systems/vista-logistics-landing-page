@@ -59,7 +59,7 @@ export default function Getting() {
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> 20+ Contacts of shipping companies and money exchangers for different countries</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> Contacts of hair blend suppliers</li>
             
-            <li className="font-bold text-amber-600 mt-10">OKRIKA (THRIFT) BUSINESS</li>
+            <li className="font-bold text-amber-600 mt-10">OKRIKA (THRIFT) BUSINESS </li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> 100+ Contacts of bale wholesalers in Nigeria</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> Contacts of manufacturers both in China and Nigeria</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> How to make payment to Chinese suppliers</li>
@@ -74,14 +74,14 @@ export default function Getting() {
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> How to verify quality items and products</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> How to calculate shipping and landing fee</li>
             
-            <li className="font-bold text-amber-600 mt-10">DUBAI & TURKEY</li>
+            <li className="font-bold text-amber-600 mt-10">DUBAI & TURKEY IMPORTATION</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> Benefits of Dubai and Turkey business</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> 100+ Contacts of suppliers of various products</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> Direct contacts of manufacturers and chat with them</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> 20+ Contacts of money exchangers</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> 10+ Contacts of shipping agents</li>
             
-            <li className="font-bold text-amber-600 mt-10">BANGLADESH</li>
+            <li className="font-bold text-amber-600 mt-10">BANGLADESH IMPORTATION</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> Introduction to Bangladesh importation</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> Basic knowledge of different products importable from Bangladesh</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> Basic knowledge of currency conversion</li>
@@ -90,7 +90,7 @@ export default function Getting() {
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> How to negotiate for the payment on the delivery method (FOMO) strategy</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> Instant connection to suppliers channel and community</li>
             
-            <li className="font-bold text-amber-600 mt-10">SHEIN & PAT PAT</li>
+            <li className="font-bold text-amber-600 mt-10">SHEIN & PAT PAT IMPORTATION</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> Introduction to Shein importation</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> Basic knowledge of different products importable from Bangladesh</li>
             <li className="text-indigo-900 font-semibold"><Image src="/ticka.png" alt="tick" width={16} height={16} className="inline mr-2" /> Basic knowledge of currency conversion</li>
@@ -109,14 +109,8 @@ export default function Getting() {
           rel="noopener noreferrer"
           className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-medium py-3 px-6 rounded-full transition-colors"
         >
-          <Image
-            src="/whatsapp.png"
-            alt="WhatsApp"
-            width={20}
-            height={20}
-            className="mr-2 inline"
-          />
-          Join the WhatsApp Group
+        
+          ENROLL NOW 
         </a>
       </div>
     </section>

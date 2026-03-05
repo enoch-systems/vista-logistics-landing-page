@@ -79,16 +79,10 @@ export default function Trip() {
               href="https://chat.whatsapp.com/HZEHASpVjCW6WEjxb8DxUV?mode=gi_t"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-medium py-3 px-6 rounded-full transition-colors"
+              className="block bg-amber-600 hover:bg-amber-700 text-white font-medium py-3 px-6 rounded-full transition-colors mx-auto w-fit"
             >
-              <Image
-                src="/whatsapp.png"
-                alt="WhatsApp"
-                width={20}
-                height={20}
-                className="mr-2 inline"
-              />
-              Join the WhatsApp Group
+              
+              Register NOW
             </a>
           </div>
         </div>

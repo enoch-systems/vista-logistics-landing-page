@@ -29,7 +29,7 @@ export default function Home() {
 
       {/* Top Banner */}
       <div className="bg-indigo-950 text-white text-center  px-6 mt-0">
-        <h2 className="text-2xl sm:text-3xl font-bold">Turn N10,000 into N300,000/Month with Importation</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold">Turn ₦10,000 into ₦300,000/Month with Importation</h2>
         <p className="mt-2 text-base sm:text-lg">Start your import business today even if you've never done it before.</p>
       </div>
 
@@ -53,7 +53,7 @@ export default function Home() {
       <Getting/>
       {/* Reviews section */}
       <section className="py-0 px-6">
-        <h2 className="text-2xl font-bold text-center mb-4 text-amber-600">REVIEWS</h2>
+        <h2 className="text-2xl font-bold text-center mb-4 text-amber-600">TESTIMONIALS</h2>
         <Reviews />
       </section>
 
