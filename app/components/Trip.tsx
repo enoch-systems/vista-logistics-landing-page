@@ -24,7 +24,7 @@ export default function Trip() {
   };
 
   return (
-    <section className=" pb-7 px-6 bg-white">
+    <section className="mt-5 pb-0 px-6 bg-white">
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         <div className="w-full relative">
           <div className="overflow-hidden rounded-lg">
@@ -63,9 +63,7 @@ export default function Trip() {
           <h3 className="text-2xl font-normal mb-4">
             We discovered how most beginners get overcharged by suppliers and middlemen.
           </h3>
-          <p className="mb-8">
-            In this training, I’ll be exposing these tricks and teaching you how to buy at the right price.
-          </p>
+         
 
           <h4 className="text-xl font-bold mb-3">WHO THIS TRAINING IS FOR:</h4>
           <ul className="space-y-2 list-none">
