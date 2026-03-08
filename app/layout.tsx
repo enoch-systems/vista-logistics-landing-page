@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Image from "next/image";
 import ScrollToTop from "./components/ScrollToTop";
+import MetaPixel from "./components/MetaPixel";
+// @ts-expect-error - CSS imports don't have type declarations
 import "./globals.css";
 
 const geistSans = Geist({
@@ -31,6 +33,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <MetaPixel />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

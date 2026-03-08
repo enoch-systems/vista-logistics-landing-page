@@ -35,7 +35,7 @@ export default function Home() {
           alt="Banner"
           width={1200}
           height={400}
-          className="w-full h-auto mb-8"
+          className="w-full max-w-[1200px] h-auto mb-8 md:w-auto md:h-auto"
         />
         <h1 className="text-4xl sm:text-5xl font-bold leading-tight max-w-2xl text-indigo-900">
           Learn How to Import Profitable Goods from China Using Just Your Phone — No Travel Required

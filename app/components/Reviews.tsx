@@ -6,7 +6,7 @@ const Reviews = () => {
   const images = Array.from({ length: 7 }, (_, i) => `/t${i + 1}.jpg`).filter(img => img !== '/t1.jpg');
 
   return (
-    <div className="grid grid-cols-1 gap-4 max-w-6xl mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-6xl mx-auto">
       {images.map((src, idx) => (
         <div key={idx} className="relative">
           <Image
@@ -14,7 +14,7 @@ const Reviews = () => {
             alt={`Review ${idx + 2}`}
             width={300}
             height={400}
-            className="w-full h-auto object-contain"
+            className="w-full max-w-[300px] h-auto object-contain mx-auto md:w-auto md:h-auto"
             priority
           />
         </div>
